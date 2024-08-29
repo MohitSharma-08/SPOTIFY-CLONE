@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - CLONE</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Liked Songs - Spotify playlist</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="1" >
+                    <span class="songName">Entertainer - Zayn</span>
+                    <span class="songlistplay"> <span class="timestamp">03:23 <i id="0" class="fa-solid fa-play"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/2.jpg" alt="1" >
+                    <span class="songName">Let Me - Zayn</span>
+                    <span class="songlistplay"> <span class="timestamp">03:06 <i id="1" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/3.jpg" alt="1" >
+                    <span class="songName">Still Got Time - Zayn</span>
+                    <span class="songlistplay"> <span class="timestamp">03:08 <i id="2" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/4.jpg" alt="1" >
+                    <span class="songName">Tightrope - Zayn</span>
+                    <span class="songlistplay"> <span class="timestamp">03:27 <i id="3" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/5.jpg" alt="1" >
+                    <span class="songName">Dusk till dawn - Zayn</span>
+                    <span class="songlistplay"> <span class="timestamp">03:56 <i id="4" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/6.jpg" alt="1" >
+                    <span class="songName">Bad things - Camila Cabello & MGK</span>
+                    <span class="songlistplay"> <span class="timestamp">03:59 <i id="5" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/7.jpg" alt="1" >
+                    <span class="songName">Him & I - G-eazy feat. Halsey</span>
+                    <span class="songlistplay"> <span class="timestamp">04:29 <i id="6" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/8.jpg" alt="1" >
+                    <span class="songName">Don't Mind - Young Stunners</span>
+                    <span class="songlistplay"> <span class="timestamp">03:15 <i id="7" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/9.jpg" alt="1" >
+                    <span class="songName">Faasle - Aditya Rikhari</span>
+                    <span class="songlistplay"> <span class="timestamp">03:27 <i id="8" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1" >
+                    <span class="songName">Alag Aasmaan - Anuv Jain</span>
+                    <span class="songlistplay"> <span class="timestamp">03:46 <i id="9" class="far songItemPlay fa-play-circle"></i> </span> </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner">
+
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="200" >
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px"  alt="" id="gif"> <span id="masterSongName">Entertainer - Zayn</span> 
+            <img src="" alt="playing gif">
+        </div>
+    </div>
+    
+
+
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="myscript.js"></script>
+
+</body>
+</html>
