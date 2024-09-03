@@ -75,6 +75,7 @@ nav ul li {
 }
 
 #myProgressBar{
+    /* width: 100%; */
     width: 80vw;
     cursor: pointer;
 }
@@ -100,7 +101,7 @@ nav ul li {
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
-    width: 530px;  
+    width: 100%;  
 }
 
 .songItem img{
@@ -133,11 +134,16 @@ nav ul li {
 }
 
 
-/*
 
-@media only screen and (max-width: 600px) {
+/* for small mobile devices */
+
+@media only screen and (max-width: 480px) {
     body {
      background-color: antiquewhite; 
+    }
+
+    nav{
+        width: 120%;
     }
 
     .songItem{
@@ -166,11 +172,10 @@ nav ul li {
         color: white;
         font-family: 'Ubuntu', sans-serif;
         display: flex;
-        width: 70%;
+        width: 100%;
         
     }
 
 }
 
 
-*/
